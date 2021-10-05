@@ -13,5 +13,5 @@ A lightweight graph-convolutional model for skeletal human motion forecasting on
     * This will train a model with the default configuration (s. ```configs.py```)
   * To evaluate a model, call ```python main.py eval --checkpoint <path_to_checkpoint>```
     * This will run the default evaluation on a model with the default configuration (s. ```configs.py```), restored from the checkpoint thats passed in ```path_to_checkpoint```
-    * A checkpoint to run the model with default configuration is located in the ```ckpts``` folder
+    * A checkpoint to run the model with default configuration is located in the [```ckpts```](https://github.com/LucaHermes/lightweight-motion-forecasting/tree/main/ckpts/epoch_3000_joint_level_enc_forecasting/20210516-032909) folder
   * Alternatively you can alter the defaults by passing additional cli arguments
