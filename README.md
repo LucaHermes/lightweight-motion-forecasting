@@ -41,5 +41,8 @@ Alternatively you can alter the defaults by passing additional cli arguments
 
 ## Qualitative Results
 ![qualitative_results_skeletons](https://user-images.githubusercontent.com/30961397/136162669-b868300b-bde7-4a13-9e59-b7b5e22b582d.png)
+<i><p align="center">Prediction and ground truth from the test set performing the walking action.</p></i>
+
 ***
-<img alt="qualitative_results_quaternion_dims" src="https://user-images.githubusercontent.com/30961397/136162242-7f4e20f1-8f92-4ca4-960a-164cfd8daa99.png">
+![qualitative_results_skeletons](https://user-images.githubusercontent.com/30961397/136162242-7f4e20f1-8f92-4ca4-960a-164cfd8daa99.png)
+<i><p align="center">Prediction (solid) and ground truth (dashed) individual quaternion dimensions.</p></i>
