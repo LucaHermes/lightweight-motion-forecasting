@@ -9,8 +9,8 @@ The paper is available here: https://www.esann.org/sites/default/files/proceedin
 ## Usage
 
 * Get the [H3.6M Dataset](http://vision.imar.ro/human3.6m/description.php)
-* The CLI is located in ```main.py```, it consists of two subprograms ```train``` and ```eval``` for training and evaluation of models respectively.
-* Calling ```main.py --help``` prints an overview of the CLI arguments
+* The CLI is located in ```main.py```, it consists of two subprograms ```train``` and ```eval``` for training and evaluation of models, respectively.
+* Calling ```python main.py --help``` prints an overview of the CLI arguments
 
 To train a model, call 
 ```
@@ -36,7 +36,7 @@ Alternatively, you can alter the defaults by passing additional cli arguments or
       * ```K-GCN``` replaces the [diffusion GCN](https://proceedings.neurips.cc/paper/2019/file/23c894276a2c5a16470e6a31f4618d73-Paper.pdf) in the original Graph-WaveNet
 * WaveNet-style skip connections accumulate the outputs of the blocks
 * A ReLU-activated MLP computes the final output
-* This is an autoregressive model, hence it computes 1-step predictions that are the input to the model for the next prediction step.  
+* This is an autoregressive model, hence it computes 1-step predictions that are the input to the model for the next prediction step.
 
 <br><br><br>
 
