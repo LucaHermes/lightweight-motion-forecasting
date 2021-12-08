@@ -1,6 +1,6 @@
 numpy==1.19.5
 tensorboard==2.6.0
-tensorflow-gpu==2.6.0
+tensorflow-gpu==2.6.1
 tensorflow-graphics-gpu==1.0.0
 matplotlib==3.3.4
 PyQt5==5.15.4
